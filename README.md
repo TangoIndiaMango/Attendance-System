@@ -164,11 +164,11 @@ SOFTWARE. -->
 - [MongoDB](https://www.mongodb.com/)
 - [shadcn/ui](https://ui.shadcn.com/)
 - All contributors and supporters
-
+<!--
 ## Support
 
-For support, please open an issue in the GitHub repository or contact [your-email@example.com](mailto:your-email@example.com).
-
+For support, please open an issue in the GitHub repository or contact [aliyutimileyin2340@gmail.com](mailto:aliyutimileyin2340@gmail.com).
+-->
 ## Roadmap
 
 - [ ] Mobile application
@@ -180,4 +180,4 @@ For support, please open an issue in the GitHub repository or contact [your-emai
 
 ---
 
-Built with ❤️ by [Timilehin Aliyu]
+[Timilehin Aliyu]
