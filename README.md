@@ -1,4 +1,4 @@
-# Attendance Management System
+# Attendance  System
 
 A modern, real-time attendance tracking system built with Next.js 14, MongoDB, and TypeScript. This system provides an efficient way to manage and monitor attendance for organizations, teams, or educational institutions.
 
