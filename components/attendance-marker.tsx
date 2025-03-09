@@ -285,7 +285,7 @@ export function AttendanceMarker({ session }: AttendanceMarkerProps) {
               <CardTitle>{session.name}</CardTitle>
               {session.description && <CardDescription>{session.description}</CardDescription>}
             </div>
-            <Badge variant="success" className="text-xs font-normal px-2 py-1">
+            <Badge variant="default" className="text-xs font-normal px-2 py-1">
               Active
             </Badge>
           </div>

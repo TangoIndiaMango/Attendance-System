@@ -3,7 +3,7 @@ import { SignJWT, jwtVerify } from "jose"
 
 // Secret key for JWT signing
 const JWT_SECRET = process.env.JWT_SECRET || "your-fallback-secret-key-change-this-in-production"
-const COOKIE_NAME = "admin_session"
+const COOKIE_NAME = process.env.COOKIE_NAME || "admin_session"
 
 // Session types
 interface AdminSession {
@@ -50,7 +50,7 @@ export async function getServerSession(): Promise<AdminSession | null> {
       algorithms: ["HS256"],
     })
 
-    return payload as AdminSession
+    return payload as unknown as AdminSession
   } catch (error) {
     // If token is invalid, delete it
     cookies().delete(COOKIE_NAME)

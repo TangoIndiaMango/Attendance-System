@@ -66,7 +66,7 @@ export function SessionList() {
       case "pending":
         return <Badge variant="secondary">Pending</Badge>
       case "active":
-        return <Badge variant="success">Active</Badge>
+        return <Badge variant="default">Active</Badge>
       case "completed":
         return <Badge variant="default">Completed</Badge>
     }
@@ -278,7 +278,7 @@ export function SessionList() {
                         </TableCell>
                         <TableCell>
                           {attendee ? (
-                            <Badge variant="success">Present</Badge>
+                            <Badge variant="default">Present</Badge>
                           ) : (
                             <Badge variant="destructive">Absent</Badge>
                           )}
@@ -294,7 +294,7 @@ export function SessionList() {
                       <TableCell>{attendee.name}</TableCell>
                       <TableCell>{formatAttendanceTime(attendee.markedAt)}</TableCell>
                       <TableCell>
-                        <Badge variant="warning">Unexpected</Badge>
+                        <Badge variant="secondary">Unexpected</Badge>
                       </TableCell>
                     </TableRow>
                   ))}
